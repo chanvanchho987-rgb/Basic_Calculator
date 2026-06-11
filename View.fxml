@@ -8,97 +8,97 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="33.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="C">
+      <Button fx:id="button_clear" layoutX="33.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="C">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="118.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="B">
+      <Button fx:id="button_backspace" layoutX="118.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="B">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Label layoutX="20.0" layoutY="27.0" prefHeight="61.0" prefWidth="360.0" style="-fx-border-color: black;" text="Result" textAlignment="CENTER">
+      <Label fx:id="label_result" layoutX="20.0" layoutY="27.0" prefHeight="61.0" prefWidth="360.0" style="-fx-border-color: black;" text="Result" textAlignment="CENTER">
          <font>
             <Font size="34.0" />
          </font>
       </Label>
-      <Button layoutX="203.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="/">
+      <Button fx:id="button_division" layoutX="203.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="/">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="288.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="*">
+      <Button fx:id="button_multiplication" layoutX="288.0" layoutY="123.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="*">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="33.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="7">
+      <Button fx:id="button_seven" layoutX="33.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="7">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="118.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="8">
+      <Button fx:id="button_eight" layoutX="118.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="8">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="203.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="9">
+      <Button fx:id="button_nine" layoutX="203.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="9">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="288.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="-">
+      <Button fx:id="button_minus" layoutX="288.0" layoutY="193.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="-">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="33.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="4">
+      <Button fx:id="button_four" layoutX="33.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="4">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="118.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="5">
+      <Button fx:id="button_five" layoutX="118.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="5">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="203.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="6">
+      <Button fx:id="button_six" layoutX="203.0" layoutY="263.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="6">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="288.0" layoutY="263.0" mnemonicParsing="false" prefHeight="139.0" prefWidth="84.0" style="-fx-border-color: pink;" text="+">
+      <Button fx:id="button_add" layoutX="288.0" layoutY="263.0" mnemonicParsing="false" prefHeight="139.0" prefWidth="84.0" style="-fx-border-color: pink;" text="+">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="33.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="1">
+      <Button fx:id="button_one" layoutX="33.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="1">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="118.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="2">
+      <Button fx:id="button_two" layoutX="118.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="2">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="203.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="3">
+      <Button fx:id="button_tree" layoutX="203.0" layoutY="333.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="3">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="33.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="169.0" style="-fx-border-color: pink;" text="0">
+      <Button fx:id="button_zero" layoutX="33.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="169.0" style="-fx-border-color: pink;" text="0">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="203.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text=".">
+      <Button fx:id="button_point" layoutX="203.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text=".">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button layoutX="288.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="=">
+      <Button fx:id="button_equal" layoutX="288.0" layoutY="403.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="84.0" style="-fx-border-color: pink;" text="=">
          <font>
             <Font size="32.0" />
          </font>
