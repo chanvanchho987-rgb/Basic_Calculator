@@ -6,7 +6,7 @@ import javafx.scene.input.MouseEvent;
 public class Controller {
 
     @FXML
-    private Button button_add;
+    private Button button_addition;
 
     @FXML
     private Button button_backspace;
