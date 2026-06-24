@@ -33,7 +33,7 @@ public class Memory {
     public void main(String[] args) {
         Memory memory = new Memory();
 
-        memory.set_first_variable("S");
+        memory.set_first_variable("5");
         System.out.println(memory.get_first_variable());
 
     }
