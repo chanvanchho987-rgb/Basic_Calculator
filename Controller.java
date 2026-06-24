@@ -168,25 +168,7 @@ public class Controller {
 
     @FXML
     void initialize() {
-        assert button_addition != null : "fx:id=\"button_addition\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_backspace != null : "fx:id=\"button_backspace\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_clear != null : "fx:id=\"button_clear\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_division != null : "fx:id=\"button_division\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_eight != null : "fx:id=\"button_eight\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_equal != null : "fx:id=\"button_equal\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_five != null : "fx:id=\"button_five\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_four != null : "fx:id=\"button_four\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_minus != null : "fx:id=\"button_minus\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_multiplication != null : "fx:id=\"button_multiplication\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_nine != null : "fx:id=\"button_nine\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_one != null : "fx:id=\"button_one\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_point != null : "fx:id=\"button_point\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_seven != null : "fx:id=\"button_seven\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_six != null : "fx:id=\"button_six\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_tree != null : "fx:id=\"button_tree\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_two != null : "fx:id=\"button_two\" was not injected: check your FXML file 'View.fxml'.";
-        assert button_zero != null : "fx:id=\"button_zero\" was not injected: check your FXML file 'View.fxml'.";
-        assert label_result != null : "fx:id=\"label_result\" was not injected: check your FXML file 'View.fxml'.";
+        
 
     }
 
